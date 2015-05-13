@@ -1,0 +1,403 @@
+/*Page Body Formatting*/
+
+html, body {
+	margin:0;padding:0;height:100%;width: 100%;overflow-x:hidden; 
+}
+
+.container{ 
+	height: 100%;
+	width: 100%;
+	margin-top:4.15%;
+
+	}
+
+.section, .footer{
+	height: 100%;
+	position: relative;
+	top: -20px;
+	width: 103%;
+	left: -1.5%;
+	padding-top: 3%
+}
+
+/*Universal Text Alignments*/
+.section-heading-box{
+	text-align: center;
+	margin-bottom: 5%
+}
+
+.section-head{
+	font-weight: 300;
+	font-size: 4em
+}
+
+/* Navbar formatting - pre-fixation*/
+
+.navbar{
+	background-color: black;
+	z-index: 100
+}
+
+
+/* Section 1 - Title Section */
+#section1{
+	padding-top: 0
+}
+
+#bp1{
+	height: 100%;
+	width: 100%;
+	top: -3%;
+	z-index: 2
+}
+.title-box{
+	position: relative;
+	top: -80%;
+	left: 0%;
+	text-align: center;
+	z-index: 50;
+	
+}
+
+.subtitle{
+	font-family: 'Roboto';
+	font-weight: 300
+}
+
+.title-pic{
+	height: 15%;
+	width: 15%;
+	opacity: .8
+}
+
+.subtitle{
+	font-size: 2.5em;
+	margin-bottom: 3%
+}
+
+/*Sections */
+
+
+
+#section2{
+	top: -6.2%;
+	
+}
+
+/*Section 3*/
+
+#section3{
+	top: -9.5%;
+}
+
+/*Section 4*/
+
+#section4{
+	top: -12.65%;
+
+}
+
+#section5{
+	top: -12.6%;
+	
+	
+}
+
+#section6{
+	top: -12.6%;
+	height: 130%;
+}
+
+#section7{
+	
+	top: -12.6%;
+}
+
+/*Footer*/
+
+.footer{
+	height: 20%;
+	background-color: black;
+	top: -12.65%
+}
+
+/*components*/
+
+	/*Columns*/
+
+.column-box{
+	display: flex;
+	flex-direction:row;
+}
+
+.column{
+	display: block;
+	width: 30%;
+	text-align: center;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+
+.c-icon{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	margin: 0 auto;
+	border-radius: 50%;
+	font-size: 7em
+}
+/*Varries by icon*/
+#c-iconA {
+	
+}
+ #c-iconC{
+ 	font-size: 6.8em;
+ }
+
+.cheading{
+	font-family: 'Roboto';
+	font-weight: 300
+}
+
+.c-text{
+	font-family: 'Roboto';
+	font-weight: 200;
+	font-size: 1.5em
+}
+
+	/*Fact Bubles*/
+.fact-bubles-box{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	top: 10%;
+	flex-wrap:wrap;
+	margin-top: 10%
+}
+
+.fact-buble{
+	border:2px solid black;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding-top: 1.5%;
+	margin: 12px
+}
+
+.fact-text{
+	font-weight: 100;
+	font-size: 1.5em
+}
+
+
+	/*Testimonials Slider*/
+
+.tcycle-box{
+	position: relative;
+	text-align: center;
+	margin-top: 10%
+}
+
+.tcycle{
+	text-align: center;
+	left: 30%
+}
+
+
+.test-text-box4{
+	width: 40%;
+	text-align: center;
+	order: 2;
+	
+}
+
+.test-text4, .test-name4{
+	line-height: 130%;
+	font-weight: 100;
+	font-size: 2.5em
+}
+
+.test-name4{
+	font-weight: 200;
+	font-size: 2em
+
+}
+
+.quote{
+	font-weight: 300;
+}
+
+	/*People Section*/
+
+.people-box{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.person{
+	height: 80%;
+	width: 20%;
+	margin: 3%;
+
+}
+
+.person-picture{
+	width:100%;
+	z-index: 1;
+	position: relative;
+}
+
+.person-info-box{
+	position: relative;
+	top: -1000%;
+	text-align: center;
+}
+
+.person-name{
+	font-size: 2.3em;
+	font-weight: 200;
+	line-height: 110%
+}
+
+.person-title{
+	position: relative;
+	font-size: .9em;
+	font-weight: 100;
+}
+
+.person-links{
+	font-size: 1.3em
+}
+
+.person-email, .person-linkedin{
+	color: black;
+	margin: 1%;
+}
+	
+	/*Pricing Table*/
+.pricing-table-box{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	
+}
+.pricing-table{
+	width: 30%;
+	text-align: center;
+}
+.pricing-table-interior{
+	border: 2px solid black;
+	position: relative;
+	border-radius: 1%;
+	height: 70%;
+}
+
+.pricing-table h1{
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-size: 1.5em
+}
+.pricing-table-header, .pricing-table-price, .pricing-table-row{
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+.pricing-header-text{
+	font-size: 3em!important;
+	font-weight: 300 !important;
+}
+
+.pricing-table-price{
+	height: 30%;
+	
+	vertical-align: middle;
+	padding-top: 10%
+}
+
+.pricing-price-text{
+	margin: 0;
+
+	font-size: 6.5em !important;
+	font-weight: 400 !important;
+	vertical-align: middle;
+}
+
+.money, .month{
+	font-size: .5em;
+	font-weight: 300;
+	margin: 2px
+}
+
+.pricing-table-signup-button{
+	margin-top: 3%;
+	border: 2px solid black
+}
+
+	/*Subscribe Form*/
+
+.actionformbox{
+	text-align: center
+}
+
+.actionheader{
+	font-size: 2em;
+	font-weight: 200
+}
+
+.action-form input{
+	margin: 1%;
+	height: 35px;
+	width: 300px;
+	border-radius: 5%;
+	border:  2px solid black;
+	text-align: center; 
+}
+
+.action-form input::-webkit-input-placeholder {
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center;
+}
+
+.action-form input:-moz-placeholder { /* Firefox 18- */
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center;  
+}
+
+.action-form input::-moz-placeholder {  /* Firefox 19+ */
+ 	color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center; 
+}
+
+.action-form input:-ms-input-placeholder {  
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center; 
+
+}
+
+.sbutton{
+	width: 200px;
+	height: 40px;
+	color: black;
+    font-family: 'Roboto';
+    font-weight: 600;
+    border: 2px solid black
+}
+
+.sbutton:hover{
+	color: white;
+    background-color: black;
+    border: none;
+}
